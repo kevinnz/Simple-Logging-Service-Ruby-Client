@@ -20,8 +20,10 @@ Or install it yourself as:
 
 ## Usage
 
-  simple_logger = AppsnapSls::SimpleLogger.new("class_name", AppsnapSls::SimpleLoggerConfiguration.new("bound_sls_instance_name"))
-  simple_logger.info("I am a test message from the ruby sls client api")
+    ```ruby
+    simple_logger = AppsnapSls::SimpleLogger.new("class_name", AppsnapSls::SimpleLoggerConfiguration.new("bound_sls_instance_name"))
+    simple_logger.info("I am a test message from the ruby sls client api")
+    ```
 
 ## Contributing
 
