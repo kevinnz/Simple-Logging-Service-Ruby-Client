@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.authors = ["Tyler Power"]
   gem.email = ["tyler@appsnap.co.nz"]
   gem.description = %q{A Ruby client for the AppSnap Simple Logging Service}
-  gem.summary = %q{Can be auto configured via the Cloud Foundry environment and provides asynchronous logging functionality using Event Machine.}
+  gem.summary = %q{Can be auto configured via the Cloud Foundry environment and provides asynchronous logging functionality using Event Machine}
   gem.homepage = "http://appsnapcloud.com"
 
   gem.add_dependency "json"

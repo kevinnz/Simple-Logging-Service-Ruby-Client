@@ -1,6 +1,8 @@
-# AppsnapSls
+# Appsnap Simple Logging Service Ruby Client Library
 
-TODO: Write a gem description
+A Ruby client for the AppSnap Simple Logging Service
+
+Can be auto configured via the Cloud Foundry environment and provides asynchronous logging functionality using Event Machine
 
 ## Installation
 
@@ -18,7 +20,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+  simple_logger = AppsnapSls::SimpleLogger.new("class_name", AppsnapSls::SimpleLoggerConfiguration.new("bound_sls_instance_name"))
+  simple_logger.info("I am a test message from the ruby sls client api")
 
 ## Contributing
 
